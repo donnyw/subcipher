@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="crypto.css">
+  </head>
+
+  <body>
+    <div id="outer">
+      <div id="ciphertext-links">
+	<a href="#" class="ciphertext-link" data-text="c1">1</a>
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<a href="#" class="ciphertext-link" data-text="c2">2</a>
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<a href="#" class="ciphertext-link" data-text="c3">3</a>
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<a href="#" class="ciphertext-link" data-text="c4">4</a>
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<a href="#" class="ciphertext-link" data-text="c5">5</a>
+	&nbsp;	&nbsp;	&nbsp;	&nbsp;
+	<a href="#" class="ciphertext-link" data-text="c6">6</a>
+      </div>
+
+      <div id="display">
+	<h2>
+	  Choose one of the numbers above to get started
+	</h2>
+      </div>
+
+      <div id="swap">
+	<input type="text" id="commandLine" />
+	<br />
+	<button id="swapButton" onclick="swapCommand()">Swap</button>
+	<button onclick="lockCommand()">Lock</button>
+	<br />
+	<button onclick="bestGuess()">Best Guess</button>
+      </div>
+    </div>
+
+    <span class="ciphertext" id="c1"> Secret Message: When I wake up, the other side of the bed is cold. 
+      My fingers stretch out, seeking Prim's warmth but finding only the rough canvas cover of the 
+      mattress. She must have had bad dreams and climbed in with our mother. Of course, she did. This 
+      is the day of the reaping. I prop myself up on one elbow. There's enough light in the bedroom to 
+      see them. My little sister, Prim, curled up on her side, cocooned in my mother's body, their 
+      cheeks pressed together. In sleep, my mother looks younger, still worn but not so beaten-down. 
+      Prim's face is as fresh as a raindrop, as lovely as the primrose for which she was named. My mother 
+      was very beautiful once, too. Or so they tell me.
+    </span>
+
+    <span class="ciphertext" id="c2"> Secret Message: Eventually I understood this would 
+      only lead us to more trouble. So I learned to hold my 
+      tongue and to turn my features into an indifferent mask 
+      so that no one could ever read my thoughts. Do my work 
+      quietly in school. Make only polite small talk in the public 
+      market. Discuss little more than trades in the Hob, which 
+      is the black market where I make most of my money. 
+      Even at home, where I am less pleasant, I avoid 
+      discussing tricky topics. Like the reaping, or food 
+      shortages, or the Hunger Games. Prim might begin to 
+      repeat my words and then where would we be?
+    </span>
+
+    <span class="ciphertext" id="c3">
+      Secret Message: Betrayal. That's the first thing I feel, which is ludicrous. 
+      For there to be betrayal, there would have had to been 
+      trust first. Between Peeta and me. And trust has not 
+      been part of the agreement. We're tributes. But the boy 
+      who risked a beating to give me bread, the one who 
+      steadied me in the chariot, who covered for me with the 
+      redheaded Avox girl, who insisted Haymitch know my 
+      hunting skills . . . was there some part of me that 
+      couldn't help trusting him? On the other hand, I'm relieved that we can stop the 
+      pretense of being friends. Obviously, whatever thin 
+      connection we'd foolishly formed has been severed. And 
+      high time, too.
+    </span>
+
+    <span class="ciphertext" id="c4">
+      I've ridden the elevator a couple of times in the Justice 
+      Building back in District 12. Once to receive the medal for 
+      my father's death and then yesterday to say my final 
+      goodbyes to my friends and family. But that's a dark and 
+      creaky thing that moves like a snail and smells of sour 
+      milk. The walls of this elevator are made of crystal so 
+      that you can watch the people on the ground floor shrink 
+      to ants as you shoot up into the air. It's exhilarating and 
+      I'm tempted to ask Effie Trinket if we can ride it again, 
+      but somehow that seems childish.
+    </span>
+
+    <span class="ciphertext" id="c5"> We're whisked down to the bottom level of the Remake 
+      Center, which is essentially a gigantic stable. The opening 
+      ceremonies are about to start. Pairs of tributes are being 
+      loaded into chariots pulled by teams of four horses. Ours 
+      are coal black. The animals are so well trained, no one 
+      even needs to guide their reins. Cinna and Portia direct 
+      us into the chariot and carefully arrange our body positions, the drape of our capes, before moving off to 
+      consult with each other.
+    </span>
+
+    <span class="ciphertext" id="c6">The survey missions of MMVs fall in two main areas of 
+      application, to a large extent overlapping. The first is data 
+      collection for the population or the updating of a road cadaster 
+      database or a urban GIS; in this case geometric and attribute 
+      data about the road infrastructure but also about its 
+      surroundings area of interest are collected. The second, 
+      normally of interest to road and traffic departments which are 
+      responsible for road maintenance and road safety, concentrates 
+      more on the state of the road surface (frequency and severity of 
+      potholes, cracks, degree of surface roughness). 
+    </span>
+
+    <script src="jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="crypto.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-4496761-3', 'donnyw.com');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
